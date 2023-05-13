@@ -6,13 +6,11 @@ the array to the right x amount of times
 Examples:
 
 shiftElements([1, 2, 3, 4, 5], 3) // Should output [3,4,5,1,2]
-shiftElements([1,2,3,4,5]) // Should output [5,1,2,3,4]
+shiftElements([1,2,3,4,5], 1) // Should output [5,1,2,3,4]
 
 ***********************************************************************/
 
-function shiftElements(arr) {
-	// Your code here
-}
+function shiftElements(arr, count) {}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = shiftElements;
